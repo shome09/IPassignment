@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: #404eed;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-master{
+    padding: 20px;
+}
+#master-2{
+    width:50%;
+}
+
+#master-2>ul{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+#master-2>ul>li{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#master-2>ul>li:hover{
+    text-decoration: underline solid currentcolor auto;
+}
+#master-1,#master-3{
+    width: 25%;
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 100px;
+}
+
+#master-3>button{
+    padding: 7px 16px;
+    background-color: #fff;
+    box-shadow: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#master-1>img{
+    opacity: 1;
+    display: block;
+    width: 124px;
+    
+}
+
+#hero{
+    background-image: url(/assets/hero2.svg),url(./assets/hero1.svg),url(./assets/hero3.svg);
+    background-position: -15% 100%,120% 100%,50% 100%;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 600px,600px,auto;
+    background-color: #404eed;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-home{
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+#hero-title{
+    font-size: 56px;
+    margin-bottom: 24px;
+    line-height: 100%;
+}
+
+#hero-content{
+    margin: 0 auto;
+    line-height: 1.625;
+    max-width: 780px;
+    font-size: 20px;
+}
+
+#hero-btns>button{
+    margin-right: 24px;
+    margin-top: 24px;
+    border-radius: 28px;
+    font-size: 20px;
+    border: none;
+}
+
+#btn-win{
+    background-color: #fff;
+    padding: 16px 32px;
+}
+
+#master-3>button:hover,#btn-win:hover{
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    color: #404eed;
+}
+
+#btn-browser{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 25px 32px;
+}
+
+#btn-browser:hover{
+    background-color: hsl(223,6.7%,20.6%);
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-content-text>p{
+    width: 380px;
+    height:112px;
+    margin-top: 24px;
+    font-size: 20px;
+    color:#23272a;
+    line-height: 28px;
+}
+
+.main-content-text>h3{
+    width: 380px;
+    font-weight: 700;
+    font-size:48px;
+    color:#23272a;
+    line-height: 48px;
+}
+
+.main-content:nth-of-type(even){
+    background-color: #f6f6f6;
+}
+
+.main-content-last{
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0 120px 0;
+}
+
+.main-content-text-last>h3{
+    text-align: center;
+    font-size: 48px;
+    color: #23272a;
+    line-height: 48px;
+}
+
+.main-content-text-last>p{
+    margin-top: 40px;
+    font-size: 20px;
+    color:#23272a;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 900px;
+}
+
+.main-content-img-last{
+    width:100%;
+}
+
+.sub-content{
+    background-image: url(./assets/backgrnd.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    min-height: 100px;
+}
+
+.sub-content>h3{
+    font-size: 32px;
+    line-height:32px;
+}
+
+.sub-content>button{
+    margin-right: 24px;
+    margin-top: 24px;
+    border-radius: 28px;
+    font-size: 20px;
+    border: none;
+    background-color: #404eed;
+    color: #fff;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.sub-content>button:hover{
+    background-color: #7289da;
+    box-shadow: 0 8px 5px rgba(0,0,0,.2);
+}
+
+footer{
+  background-color: #23272a;
+  padding-top: 80px;
+  padding-bottom: 64px;
+  position: relative;
+  overflow: visible;
+}
