@@ -240,4 +240,137 @@ footer{
   padding-bottom: 64px;
   position: relative;
   overflow: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+#footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#left-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    padding: 25px;
+    padding-top: 0px;
+}
+#locale{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+#locale>img{
+    padding: 5px;
+    margin: 5px;
+}
+
+#eng{
+    height: 35px;
+    width:45px;
+}
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+#icons>img{
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#right-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    padding: 25px;
+}
+
+.footer-cont-list{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #404eed;
+    padding-right: 45px;
+    margin-top: 0%;
+    line-height: 1.8;
+}
+
+.footer-cont-list>span{
+    color: #fff;
+    margin: 5px;
+}
+
+.footer-cont-list>span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footer-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+#blue-line{
+    background-color: #404eed;
+    height: 1px;
+    width: 950px;
+    border: none;
+}
+
+#dis-icon-signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#dis-icon-signup>img{
+    width:20%;
+}
+
+#dis-icon-signup>div{
+    width: 60%;
+}
+
+#dis-icon-signup>button{
+    width:10%;
+    padding: 7px 5px;
+    background-color: #404eed;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#dis-icon-signup>button:hover{
+    background-color: #7289da;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    cursor: pointer;
 }
