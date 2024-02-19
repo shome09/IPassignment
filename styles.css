@@ -67,8 +67,8 @@ nav{
 }
 
 #hero{
-    background-image: url(/assets/hero2.svg),url(./assets/hero1.svg),url(./assets/hero3.svg);
-    background-position: -15% 100%,120% 100%,50% 100%;
+    background-image: url(./assets/hero2.svg),url(./assets/hero1.svg),url(./assets/hero3.svg);
+    background-position: -15% 100%,110% 100%,50% 100%;
     background-repeat: no-repeat,no-repeat,no-repeat;
     background-size: 600px,600px,auto;
     background-color: #404eed;
